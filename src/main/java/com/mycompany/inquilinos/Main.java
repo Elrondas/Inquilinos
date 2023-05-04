@@ -5,13 +5,15 @@
  */
 
 package com.mycompany.inquilinos;
-import java.util.Scanner;
-
+//import java.util.Scanner;
+import vistas.Principal;
 public class Main {
 
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        
+        Principal UI = new Principal();
+        UI.setVisible(true);
     }
 
 }
